@@ -3,7 +3,7 @@ const Note = db.notes;
 
 
 exports.indice = (req, res) => {
-	res.send('Esto es el index');
+	res.send('Bienvenido al NodeJS API McFly realizado por Jose Lorenzo Moreno Moreno');
 };
 
 // Post a Note
@@ -46,7 +46,7 @@ exports.findFavs = (req, res) => {
 // Update a Note
 exports.update = (req, res) => {
 	const id = req.params.noteId;
-	Note.update( { content: req.body.content, favorite: req.body.favorite }, 
+	Note.update( { favorite: req.body.favorite }, 
 					 { where: {id: req.params.noteId} }
 				   ).then(() => {
 					 res.status(200).send("updated successfully a note with id = " + id);
