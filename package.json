@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_api_mcfly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jolorenzom@bitbucket.org/jolorenzom/nodejs_api_mcfly.git"
+  },
+  "author": "Jose Lorenzo Moreno Moreno",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/jolorenzom/nodejs_api_mcfly#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
