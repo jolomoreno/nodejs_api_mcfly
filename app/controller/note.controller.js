@@ -11,7 +11,7 @@ exports.create = (req, res) => {
 	// Save to MySQL database
 	Note.create({  
 	  content: req.body.content,
-	  favorite: req.body.favorite
+	  favorite: 0
 	}).then(note => {		
 		// Send created note to client
 		res.send(note);
