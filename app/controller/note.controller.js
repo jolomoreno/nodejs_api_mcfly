@@ -3,7 +3,7 @@ const Note = db.notes;
 
 
 exports.indice = (req, res) => {
-	res.send('Bienvenido al NodeJS API McFly realizado por Jose Lorenzo Moreno Moreno');
+	res.send('Bienvenido al NodeJS API McFly realizado por Jose Lorenzo Moreno Moreno. TOKEN:'+req.get('token'));
 };
 
 // Post a Note

@@ -15,7 +15,7 @@ module.exports = function(app) {
     app.get('/apimcfly/notes/:noteId', notes.findById);
 
     // Retrieve all favorites Notes
-    app.get('/apimcfly/favsnotes', notes.findFavs);
+    app.get('/apimcfly/notes-favs', notes.findFavs);
  
     // Update a Note with Id
     app.put('/apimcfly/notes/:noteId', notes.update);
