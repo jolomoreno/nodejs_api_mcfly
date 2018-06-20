@@ -46,7 +46,7 @@ exports.findFavs = (req, res) => {
 // Update a Note
 exports.update = (req, res) => {
 	const id = req.params.noteId;
-	Note.update( { favorite: req.body.favorite }, 
+	Note.update( { favorite: 1 }, 
 					 { where: {id: req.params.noteId} }
 				   ).then(() => {
 					 res.status(200).send("updated successfully a note with id = " + id);

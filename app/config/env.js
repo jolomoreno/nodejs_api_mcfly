@@ -1,7 +1,7 @@
 const env = {
   database: 'apimcfly',
-  username: 'jolo',
-  password: 'Jose1989',
+  username: 'root',
+  password: '',
   host: 'localhost',
   dialect: 'mysql',
   pool: {
