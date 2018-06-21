@@ -4,7 +4,7 @@ const Note = db.notes;
 //Como USUARIO quiero poder llamar al API, es decir, 
 //quiero poder tener un servidor local al que hacer una llamada HTTP y que me devuelva algo.
 exports.indice = (req, res) => {
-	res.send('Welcome to NodeJS API McFly develop by Jose Lorenzo Moreno Moreno.');		
+	res.send('Welcome to NodeJS API McFly developed by Jose Lorenzo Moreno Moreno.');		
 }
 
 // Como USUARIO quiero poder llamar al API para crear notas.
